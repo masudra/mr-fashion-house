@@ -1,4 +1,3 @@
-import './Categorys.css'
 const Categorys = () => {
     return (
         <div>
