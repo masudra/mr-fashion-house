@@ -5,9 +5,14 @@ import Footer from "../Pages/Sheard/Footer/Footer";
 const Main = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <div className=" sticky top-0 z-10">
+                <Navbar></Navbar>
+
+            </div>
+            
+                <Outlet></Outlet>
+                <Footer></Footer>
+    
         </div>
     );
 };

@@ -9,13 +9,13 @@ const Navbar = () => {
             <Link to='/' className="ml-4 text-xl">Home</Link>
             <Link className="ml-4 text-xl">Shop</Link>
             <Link className="ml-4 text-xl">Blog</Link>
-            <Link className="ml-4 text-xl">Contact</Link>
+            <Link to='/contact' className="ml-4 text-xl">Contact</Link>
             <input type="text" placeholder="Type here" className="input input-bordered ml-5   " />
             <button className="btn p-2 h-[20px]"><FaSearch className="text-xl"></FaSearch></button>
         </div>
     </>
     return (
-        <div className="w-full  fixed z-10 bg-slate-200">
+        <div className="w-full  bg-slate-200">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
